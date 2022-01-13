@@ -1,5 +1,7 @@
 # Costro Templates
 
+⚠️ The project is under development.
+
 ## Licence
 
 [MIT](https://opensource.org/licenses/MIT)
