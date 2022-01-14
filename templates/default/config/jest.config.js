@@ -1,6 +1,5 @@
 module.exports = {
 	collectCoverage: true,
-	moduleFileExtensions: ['js'],
 	// modulePaths: ['../src'],
 	resetModules: true,
 	verbose: true,
@@ -9,6 +8,6 @@ module.exports = {
 	testEnvironment: 'jsdom',
 	resolver: './config/jest-resolver.js',
 	transform: {
-		'\\.js$': ['babel-jest', { configFile: './config/babel.config.js' }]
+		'\\.(js|jsx)$': ['babel-jest', { configFile: './config/babel.config.js' }]
 	}
 };
