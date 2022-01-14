@@ -1,4 +1,4 @@
-name: ci-default
+name: ci-typescript
 
 on:
   push:
