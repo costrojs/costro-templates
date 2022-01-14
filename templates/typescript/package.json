@@ -6,7 +6,7 @@
 		"build": "webpack --config ./config/webpack.config.js --mode=production",
 		"dev": "webpack serve --config ./config/webpack.config.js --mode=development",
 		"lint": "eslint . --config ./config/.eslintrc.js --ignore-pattern build",
-		"test": "jest --config ./config/jest.config.js --watchAll",
+		"test": "jest --config ./config/jest.config.js",
 		"ts": "tsc --noEmit --watch"
 	},
 	"prettier": "./config/prettier.config.js",
