@@ -34,7 +34,7 @@ module.exports = (env, argv) => {
 
 	return {
 		entry: {
-			app: resolveApp('src/index.ts')
+			app: resolveApp('src/index.js')
 		},
 		output: {
 			filename: `static/[name]${suffixHash}.js`,

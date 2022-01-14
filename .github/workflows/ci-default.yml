@@ -4,6 +4,8 @@ on:
   push:
     branches:
     pull_request:
+    paths:
+    - 'templates/default/**'
 
 defaults:
   run:
