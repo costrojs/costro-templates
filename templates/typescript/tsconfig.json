@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "./src",
+		"checkJs": false,
+		"declaration": false,
+		"esModuleInterop": true,
+		"jsx": "react",
+		"jsxFactory": "h",
+		"jsxFragmentFactory": "F",
+		"lib": ["DOM.Iterable", "dom", "es2021"],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"outDir": "./lib",
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "es2017",
+		"removeComments": true,
+	},
+	"include": ["./src/**/*.ts", "./src/**/*.tsx"]
+}
