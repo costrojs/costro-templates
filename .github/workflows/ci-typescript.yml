@@ -5,6 +5,7 @@ on:
     branches:
     pull_request:
     paths:
+    - '.github/workflows/ci-typescript.yml'
     - 'templates/typescript/**'
 
 defaults:

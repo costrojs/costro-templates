@@ -39,7 +39,7 @@ module.exports = (env, argv) => {
 		output: {
 			filename: `static/[name]${suffixHash}.js`,
 			chunkFilename: `static/[name]${suffixHash}.js`,
-			path: resolveApp('/build'),
+			path: resolveApp('build'),
 			clean: true
 		},
 		module: {

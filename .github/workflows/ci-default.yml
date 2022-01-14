@@ -5,6 +5,7 @@ on:
     branches:
     pull_request:
     paths:
+    - '.github/workflows/ci-default.yml'
     - 'templates/default/**'
 
 defaults:
