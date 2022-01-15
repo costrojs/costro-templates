@@ -3,10 +3,10 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"build": "webpack --config ./config/webpack.config.js --mode=production",
-		"dev": "webpack serve --config ./config/webpack.config.js --mode=development",
-		"lint": "eslint . --config ./config/.eslintrc.js --ignore-pattern build",
-		"test": "jest --config ./config/jest.config.js"
+		"build": "webpack --config config/webpack.config.js --mode=production",
+		"dev": "webpack serve --config config/webpack.config.js --mode=development",
+		"lint": "eslint . --config config/.eslintrc.js --ignore-pattern build",
+		"test": "jest --config config/jest.config.js"
 	},
 	"prettier": "./config/prettier.config.js",
 	"dependencies": {
