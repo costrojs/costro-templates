@@ -17,7 +17,7 @@
 		"skipLibCheck": true,
 		"strict": true,
 		"target": "es2017",
-		"removeComments": true,
+		"removeComments": true
 	},
 	"include": ["./src/**/*.ts", "./src/**/*.tsx"]
 }

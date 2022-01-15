@@ -1,4 +1,4 @@
-import Navigation from '../components/navigation.tsx';
+import Navigation from '@src/components/navigation.tsx';
 import { h } from 'costro/jsx';
 
 describe('Navigation constructor', () => {

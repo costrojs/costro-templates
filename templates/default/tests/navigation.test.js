@@ -1,4 +1,4 @@
-import Navigation from '../components/navigation';
+import Navigation from '@src/components/navigation';
 import { h } from 'costro/jsx';
 
 describe('Navigation constructor', () => {
