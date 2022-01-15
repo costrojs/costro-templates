@@ -1,0 +1,35 @@
+{
+	"name": "costro-app-templates",
+	"version": "1.0.0",
+	"description": "Costro templates for create-costro",
+	"keywords": [
+		"costro",
+		"create-costro-app",
+		"templates",
+		"javascript",
+		"typescript",
+		"webpack",
+		"babel",
+		"eslint",
+		"prettier",
+		"jest",
+		"zero-configuration",
+		"build-tools"
+	],
+	"homepage": "https://costro.js.org",
+	"bugs": {
+		"url": "https://github.com/costrojs/costro-templates/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/costrojs/costro-templates.git"
+	},
+	"license": "MIT",
+	"author": "Joris DANIEL",
+	"files": [
+		"templates"
+	],
+	"engines": {
+		"node": ">= 12"
+	}
+}
