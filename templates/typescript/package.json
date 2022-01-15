@@ -8,6 +8,9 @@
 		"lint": "eslint . --config config/.eslintrc.js --ignore-pattern build",
 		"test": "jest --config config/jest.config.js"
 	},
+	"browserslist": [
+		"last 2 Chrome versions"
+	],
 	"prettier": "./config/prettier.config.js",
 	"dependencies": {
 		"costro": "^1.0.0-rc.1"
