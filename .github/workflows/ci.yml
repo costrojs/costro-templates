@@ -1,17 +1,9 @@
-name: ci-default
+name: ci
 
 on:
   push:
     branches:
     pull_request:
-    paths:
-    - '.github/workflows/ci-default.yml'
-    - 'templates/default/**'
-
-defaults:
-  run:
-    shell: bash
-    working-directory: templates/default
 
 jobs:
   build:
