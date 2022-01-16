@@ -2,6 +2,16 @@ name: Bug report
 description: Create a report to help us improve Costro Templates
 labels: 'bug'
 body:
+  - type: dropdown
+    id: template
+    attributes:
+      label: Template
+      description: Select the template.
+      options:
+        - Default
+        - TypeScript
+    validations:
+      required: true
   - type: textarea
     validations:
       required: true
