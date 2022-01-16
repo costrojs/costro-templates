@@ -1,5 +1,5 @@
-// Source: https://github.com/facebook/jest/issues/9771#issuecomment-974750103
 // Temporary workaround while we wait for https://github.com/facebook/jest/issues/9771
+// Source: https://github.com/facebook/jest/issues/9771#issuecomment-974750103
 const importResolver = require('enhanced-resolve').create.sync({
 	conditionNames: ['.', 'import', 'node', 'default'],
 	extensions: ['.js', '.json', '.node', '.ts']

@@ -1,20 +1,15 @@
 module.exports = (api) => {
-	const presets = [['@babel/preset-env']];
-
-	const plugins = [
-		[
-			'@babel/plugin-transform-react-jsx',
-			{
-				pragma: 'h',
-				pragmaFrag: 'F'
-			}
-		]
-	];
-
-	api.cache.using(() => process.env.NODE_ENV);
-
+	api.cache(true);
 	return {
-		plugins,
-		presets
+		presets: ['@babel/preset-env'],
+		plugins: [
+			[
+				'@babel/plugin-transform-react-jsx',
+				{
+					pragma: 'h',
+					pragmaFrag: 'F'
+				}
+			]
+		]
 	};
 };

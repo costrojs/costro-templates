@@ -3,6 +3,7 @@ const path = require('path');
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const appDirectory = fs.realpathSync(process.cwd());
@@ -133,7 +134,8 @@ module.exports = (env, argv) => {
 							pure_funcs: ['console.log', 'console.info', 'console.debug']
 						}
 					}
-				})
+				}),
+				new CssMinimizerPlugin()
 			],
 			providedExports: false,
 			removeAvailableModules: true,
