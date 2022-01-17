@@ -1,0 +1,26 @@
+{
+	"short_name": "Costro App",
+	"name": "Create Costro App Sample",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "64x64",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "icons-192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "icons-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}

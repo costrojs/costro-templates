@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Create Costro App</title>
 		<meta charset="UTF-8" />
+		<title>Create Costro App</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="description" content="Web site created using create-costro-app" />
+		<link rel="apple-touch-icon" href="icons-192.png" />
+		<link rel="icon" href="favicon.ico" />
+		<link rel="manifest" href="manifest.json" />
 		<% for (var css in htmlWebpackPlugin.files.css) { %>
 			<link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
 		<% } %>

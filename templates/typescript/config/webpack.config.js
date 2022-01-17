@@ -5,6 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath);
@@ -21,12 +22,22 @@ module.exports = (env, argv) => {
 		new HtmlWebpackPlugin({
 			filename: 'index.html',
 			template: resolveApp('public/index.html'),
-			publicPath: '',
 			inject: false,
 			chunks: ['app'],
 			minify: true
 		}),
-		new webpack.optimize.ModuleConcatenationPlugin()
+		new webpack.optimize.ModuleConcatenationPlugin(),
+		new CopyPlugin({
+			patterns: [
+				{
+					from: resolveApp('public/'),
+					to: resolveApp('build/'),
+					globOptions: {
+						ignore: ['**/index.html']
+					}
+				}
+			]
+		})
 	];
 
 	if (!isProduction) {
@@ -112,7 +123,7 @@ module.exports = (env, argv) => {
 		},
 		devServer: {
 			static: {
-				directory: resolveApp('src/build')
+				directory: resolveApp('build')
 			},
 			historyApiFallback: true,
 			port: 3000,
