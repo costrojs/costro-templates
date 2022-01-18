@@ -15,7 +15,7 @@ npm run dev
 npm run build
 
 # Run linter with ESLint
-npm run link
+npm run lint
 
 # Run tests with Jest
 npm run test
