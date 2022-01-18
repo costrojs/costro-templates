@@ -5,6 +5,13 @@
 
 Official repository of Costro templates for [Create Costro App](https://github.com/costrojs/create-costro-app).
 
+## Getting started
+
+Available templates:
+
+- [Default](./templates/default)
+- [TypeScript](./templates/typescript)
+
 ## Licence
 
 [MIT](https://opensource.org/licenses/MIT)
