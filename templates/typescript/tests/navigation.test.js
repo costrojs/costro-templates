@@ -6,10 +6,14 @@ describe('Navigation constructor', () => {
 		const result = Navigation();
 
 		expect(result).toStrictEqual(
-			<div>
-				<a href="/">Home</a>
-				<a href="/about">About</a>
-			</div>
+			<ul>
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/about">About</a>
+				</li>
+			</ul>
 		);
 	});
 });
