@@ -85,6 +85,28 @@ module.exports = (env, argv) => {
 							}
 						}
 					]
+				},
+				{
+					test: /\.woff(2)?$/,
+					include: [resolveApp('src')],
+					exclude: /(images)/,
+					type: 'asset/resource',
+					generator: {
+						filename: `fonts/[name]${suffixHash}[ext]`
+					}
+				},
+				{
+					test: /\.(jpe?g|png|gif|ico)$/i,
+					include: [resolveApp('src')],
+					type: 'asset/resource',
+					generator: {
+						filename: `images/[name]${suffixHash}[ext]`
+					}
+				},
+				{
+					test: /\.svg$/,
+					include: [resolveApp('src')],
+					type: 'asset/source'
 				}
 			]
 		},
