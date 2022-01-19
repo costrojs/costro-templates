@@ -1,6 +1,6 @@
 # Getting Started with Create Costro App
 
-This project was bootstrapped with [Create Costro App](https://github.com/costrojs/create-costro-app).
+This project was bootstrapped with [Create Costro App](https://github.com/costrojs/create-costro-app) and the [default template](https://github.com/costrojs/costro-templates/tree/main/templates/default).
 
 ## Available npm sripts
 
