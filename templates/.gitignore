@@ -1,4 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# npm packs templates folder and needs a .gitignore inside (parent file is ignored)
 
 # dependencies
 **/node_modules
