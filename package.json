@@ -27,7 +27,8 @@
 	"license": "MIT",
 	"author": "Joris DANIEL",
 	"files": [
-		"templates"
+		"templates",
+		"!templates/**/package-lock.json"
 	],
 	"engines": {
 		"node": ">= 12"
