@@ -12,7 +12,7 @@ cd my-app
 npm run dev
 ```
 
-_The development server runs on [port `3000`](https://github.com/costrojs/costro-templates/blob/main/templates/default/config/webpack.config.js#L136)_
+_The development server runs on [port `3000`](https://github.com/costrojs/costro-templates/blob/main/templates/typescript/config/webpack.config.js#L151)_
 
 ## Available npm sripts
 
