@@ -23,7 +23,7 @@
 	},
 	"prettier": "./config/prettier.config.js",
 	"dependencies": {
-		"costro": "^1.0.0-rc.1"
+		"costro": "^1.0.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.16.0",
