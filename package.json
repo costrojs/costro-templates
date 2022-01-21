@@ -1,10 +1,11 @@
 {
 	"name": "costro-templates",
 	"version": "1.0.0",
-	"description": "Costro templates for create-costro",
+	"description": "Costro templates for Create Costro App",
 	"keywords": [
 		"costro",
 		"create-costro-app",
+		"costro-templates",
 		"templates",
 		"javascript",
 		"typescript",
