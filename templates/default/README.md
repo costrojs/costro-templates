@@ -1,6 +1,18 @@
-# Getting Started with Create Costro App
+# Costro default template
+
+![Lighthouse report](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg?style=for-the-badge)
 
 This project was bootstrapped with [Create Costro App](https://github.com/costrojs/create-costro-app) and the [default template](https://github.com/costrojs/costro-templates/tree/main/templates/default).
+
+## Usage
+
+```bash
+npx create-costro-app my-app
+cd my-app
+npm run dev
+```
+
+_The development server runs on [port `3000`](https://github.com/costrojs/costro-templates/blob/main/templates/default/config/webpack.config.js#L136)_
 
 ## Available npm sripts
 
@@ -20,3 +32,7 @@ npm run lint
 # Run tests with Jest
 npm run test
 ```
+
+## Support
+
+Need helps? You can find documentation and examples on the [Costrojs website](https://costro.js.org).

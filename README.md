@@ -5,12 +5,12 @@
 
 Official repository of Costro templates for [Create Costro App](https://github.com/costrojs/create-costro-app).
 
-## Getting started
+## Templates
 
-Available templates:
-
-- [Default](./templates/default)
-- [TypeScript](./templates/typescript)
+| Template name                        | Description                                                                  |
+| ------------------------------------ | ---------------------------------------------------------------------------- |
+| [default](./templates/default)       | webpack, Babel, postCSS, ESLint, Prettier, Jest and Browserslist             |
+| [typescript](./templates/typescript) | TypeScript, webpack, Babel, postCSS, ESLint, Prettier, Jest and Browserslist |
 
 ## Licence
 
