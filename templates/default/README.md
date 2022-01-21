@@ -35,4 +35,4 @@ npm run test
 
 ## Support
 
-Need helps? You can find documentation and examples on the [Costrojs website](https://costro.js.org).
+Need helps? You can find documentation and examples on the [Costro website](https://costro.js.org).
