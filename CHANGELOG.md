@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.0.2
+
+### Updates
+
+- Bump Costro to `v1.0.3`
+
 ## 1.0.1
 
 ### Updates
