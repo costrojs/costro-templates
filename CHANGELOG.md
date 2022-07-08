@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.0.3
+
+### Updates
+
+- Remove the custom Jest resolver, `jest@28` support package exports in `jest-resolve`.
+
 ## 1.0.2
 
 ### Updates
