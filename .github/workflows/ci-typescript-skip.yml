@@ -1,15 +1,16 @@
-name: ci-default
+name: ci-typescript-skip
 
 on:
   push:
     branches:
     pull_request:
     paths-ignore:
-    - '.github/workflows/ci-default.yml'
-    - 'templates/default/**'
+    - '.github/workflows/ci-typescript.yml'
+    - 'templates/typescript/**'
 
 jobs:
   build:
+    name: typescript-build
     runs-on: ubuntu-latest
     steps:
       - run: 'echo "No build required" '

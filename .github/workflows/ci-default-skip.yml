@@ -1,0 +1,16 @@
+name: ci-default-skip
+
+on:
+  push:
+    branches:
+    pull_request:
+    paths-ignore:
+    - '.github/workflows/ci-default.yml'
+    - 'templates/default/**'
+
+jobs:
+  build:
+    name: default-build
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "No build required" '
