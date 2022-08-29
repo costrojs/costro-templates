@@ -12,7 +12,7 @@ Official repository of Costro templates for [Create Costro App](https://github.c
 | [default](./templates/default)       | webpack, Babel, postCSS, ESLint, Prettier, Jest and Browserslist             |
 | [typescript](./templates/typescript) | TypeScript, webpack, Babel, postCSS, ESLint, Prettier, Jest and Browserslist |
 
-## Licence
+## License
 
 [MIT](https://opensource.org/licenses/MIT)
 
