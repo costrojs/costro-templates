@@ -1,0 +1,15 @@
+name: ci-default
+
+on:
+  push:
+    branches:
+    pull_request:
+    paths-ignore:
+    - '.github/workflows/ci-default.yml'
+    - 'templates/default/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "No build required" '
