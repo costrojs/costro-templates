@@ -1,7 +1,7 @@
 # Costro Templates
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/costrojs/costro-templates/ci-default/main?style=for-the-badge&label=Build%20Default)
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/costrojs/costro-templates/ci-typescript/main?style=for-the-badge&label=Build%20TypeScript)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/costrojs/costro-templates/ci-default.yml?branch=main&style=for-the-badge&label=Build%20Default)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/costrojs/costro-templates/ci-typescript.yml?branch=main&style=for-the-badge&label=Build%20TypeScript)
 
 Official repository of Costro templates for [Create Costro App](https://github.com/costrojs/create-costro-app).
 
