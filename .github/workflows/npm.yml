@@ -9,13 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v3
+      - uses: ./.github/workflows/ci-default.yml
 
-      - name: Run default Workflow
-        uses: ./.github/workflows/ci-default.yml
-
-      - name: Run typeScript Workflow
-        uses: ./.github/workflows/ci-typescript.yml
+      - uses: ./.github/workflows/ci-typescript.yml
 
   publish-npm:
     runs-on: ubuntu-latest
