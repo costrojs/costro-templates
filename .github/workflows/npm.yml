@@ -12,10 +12,10 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Run default Workflow
-        uses: ./.github/workflows/ci-workflow.yml
+        uses: ./.github/workflows/ci-default.yml
 
       - name: Run typeScript Workflow
-        uses: ./.github/workflows/ci-workflow.yml
+        uses: ./.github/workflows/ci-typescript.yml
 
   publish-npm:
     runs-on: ubuntu-latest
