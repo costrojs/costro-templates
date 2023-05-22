@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.0.0
+
+### ⚠️ Breaking changes
+
+- Minimum supported `Node.js` version is `16.20.0` ([#14](https://github.com/costrojs/costro-templates/pull/14))
+
 ## 1.0.3
 
 ### Updates
