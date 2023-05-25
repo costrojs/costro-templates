@@ -1,6 +1,6 @@
 # Costro Templates
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/costrojs/costro-templates/ci-default.yml?branch=main&style=for-the-badge&label=Build)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/costrojs/costro-templates/build.yml?branch=main&style=for-the-badge&label=Build)
 
 Official repository of Costro templates for [Create Costro App](https://github.com/costrojs/create-costro-app).
 
