@@ -31,6 +31,10 @@
 		"templates",
 		"!templates/**/package-lock.json"
 	],
+	"scripts": {
+		"build": "echo \"No build specified\" && exit 0",
+		"test": "echo \"No test specified\" && exit 0"
+	},
 	"engines": {
 		"node": ">=16.20.0"
 	}
