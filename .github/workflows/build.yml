@@ -7,13 +7,13 @@ on:
   pull_request:
     branches:
       - main
-
+#tst
 jobs:
   build:
     strategy:
       matrix:
         node-version: [16, 18, 20]
-        dir: ['./templates/default', './templates/typescript']
+        dir: ['templates/default', 'templates/typescript']
     uses: yoriiis/actions/.github/workflows/test-and-build.yml@main
     with:
       node-version: ${{ matrix.node-version }}
