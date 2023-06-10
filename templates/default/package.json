@@ -23,13 +23,13 @@
 	},
 	"prettier": "./config/prettier.config.js",
 	"dependencies": {
-		"costro": "^1.0.6"
+		"costro": "^2.0.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.21.8",
 		"@babel/eslint-parser": "^7.21.8",
-		"@babel/plugin-transform-react-jsx": "^7.21.5",
 		"@babel/preset-env": "^7.21.5",
+		"@babel/preset-react": "^7.22.5",
 		"babel-jest": "^29.5.0",
 		"babel-loader": "^9.1.2",
 		"copy-webpack-plugin": "^11.0.0",
@@ -42,6 +42,7 @@
 		"html-webpack-plugin": "^5.5.1",
 		"jest": "^29.5.0",
 		"jest-environment-jsdom": "^29.5.0",
+		"jsx-dom-cjs": "^8.0.6",
 		"mini-css-extract-plugin": "^2.7.6",
 		"postcss": "^8.4.23",
 		"postcss-loader": "^7.3.0",

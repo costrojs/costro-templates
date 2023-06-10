@@ -17,12 +17,12 @@ module.exports = {
 	rules: {
 		'react/display-name': 0,
 		'react/jsx-key': 0,
-		'react/prop-types': 0
+		'react/prop-types': 0,
+		'react/jsx-uses-react': 'off',
+		'react/react-in-jsx-scope': 'off'
 	},
 	settings: {
 		react: {
-			fragment: 'F', // Fragment
-			pragma: 'h', // createElement
 			version: '0' // Remove the warning of the missing React package
 		}
 	}

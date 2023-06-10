@@ -1,15 +1,17 @@
 module.exports = (api) => {
 	api.cache(true);
 	return {
-		presets: ['@babel/preset-env'],
-		plugins: [
+		presets: [
+			'@babel/preset-env',
+			'@babel/preset-typescript',
 			[
-				'@babel/plugin-transform-react-jsx',
+				'@babel/preset-react',
 				{
-					pragma: 'h',
-					pragmaFrag: 'F'
+					importSource: 'jsx-dom-cjs',
+					runtime: 'automatic'
 				}
 			]
-		]
+		],
+		plugins: []
 	};
 };
