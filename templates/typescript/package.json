@@ -23,12 +23,12 @@
 	},
 	"prettier": "./config/prettier.config.js",
 	"dependencies": {
-		"costro": "^1.0.6"
+		"costro": "^2.1.2"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.21.8",
-		"@babel/plugin-transform-react-jsx": "^7.21.5",
 		"@babel/preset-env": "^7.21.5",
+		"@babel/preset-react": "^7.22.5",
 		"@types/jest": "^29.5.1",
 		"@types/react-dom": "^18.2.4",
 		"@typescript-eslint/eslint-plugin": "^5.59.6",
