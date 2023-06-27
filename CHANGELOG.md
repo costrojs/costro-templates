@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.1.0
+
+### New features
+
+- Add JSX automatic runtime ([#16](https://github.com/costrojs/costro-templates/pull/16))
+
 ## 2.0.0
 
 ### ⚠️ Breaking changes
