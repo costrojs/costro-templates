@@ -1,5 +1,4 @@
 import { Link } from 'costro';
-import { h } from 'costro/jsx';
 
 export default function Navigation() {
 	return (

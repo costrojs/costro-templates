@@ -24,14 +24,13 @@ module.exports = {
 		'react/display-name': 0,
 		'react/jsx-key': 0,
 		'react/prop-types': 0,
+		'react/react-in-jsx-scope': 'off',
 		'@typescript-eslint/ban-ts-comment': 'off',
 		'@typescript-eslint/no-var-requires': 'off',
 		'@typescript-eslint/no-explicit-any': 'off'
 	},
 	settings: {
 		react: {
-			fragment: 'F', // Fragment
-			pragma: 'h', // createElement
 			version: '0' // Remove the warning of the missing React package
 		}
 	}
