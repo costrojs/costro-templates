@@ -20,4 +20,3 @@ jobs:
       working-directory: ${{ matrix.dir }}
       stylelint-status: false
       typescript-status: false
-      markdown-status: false
