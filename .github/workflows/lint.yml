@@ -19,6 +19,6 @@ jobs:
     with:
       working-directory: ${{ matrix.dir }}
       stylelint-status: false
-      typescript-status: false
+      typescript-status: "${{ matrix.dir == 'templates/typescript' }}"
       markdown-config: '../../.markdownlint-cli2.cjs'
       markdown-input: '../../**/*.md'
