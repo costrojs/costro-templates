@@ -14,7 +14,7 @@ const routes = [
 ];
 
 new App({
-	target: document.querySelector('#app'),
+	target: document.querySelector('#app') as HTMLElement,
 	routes,
 	mode: 'history'
 });
