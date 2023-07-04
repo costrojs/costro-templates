@@ -21,3 +21,4 @@ jobs:
       stylelint-status: false
       typescript-status: false
       markdown-config: '../../.markdownlint-cli2.cjs'
+      markdown-input: '../../**/*.md'
