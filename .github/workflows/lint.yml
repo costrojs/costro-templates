@@ -20,3 +20,4 @@ jobs:
       working-directory: ${{ matrix.dir }}
       stylelint-status: false
       typescript-status: false
+      markdown-config: '../../.markdownlint-cli2.cjs'
