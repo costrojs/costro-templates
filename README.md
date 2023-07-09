@@ -6,10 +6,10 @@ Official repository of Costro templates for [Create Costro App](https://github.c
 
 ## Templates
 
-| Template name                        | Description                                                                  |
-| ------------------------------------ | ---------------------------------------------------------------------------- |
-| [default](./templates/default)       | webpack, Babel, postCSS, ESLint, Prettier, Jest and Browserslist             |
-| [typescript](./templates/typescript) | TypeScript, webpack, Babel, postCSS, ESLint, Prettier, Jest and Browserslist |
+| Template name                        | Codeflow                                                                                                                                                                    | Description                                                                  |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [default](./templates/default)       | [![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow_small.svg)](https://stackblitz.com/github/costrojs/costro-templates/tree/main/templates/default) | webpack, Babel, postCSS, ESLint, Prettier, Jest and Browserslist             |
+| [typescript](./templates/typescript) | [![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow_small.svg)](https://stackblitz.com/github/costrojs/costro-templates/tree/main/templates/default) | TypeScript, webpack, Babel, postCSS, ESLint, Prettier, Jest and Browserslist |
 
 ## License
 
