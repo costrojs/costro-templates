@@ -22,4 +22,3 @@ jobs:
       typescript-status: "${{ matrix.dir == 'templates/typescript' }}"
       markdown-config: '../../.markdownlint-cli2.cjs'
       markdown-input: '../../**/*.md'
-      publint-input: ${{ matrix.dir }}
