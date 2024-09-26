@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.2.0
+
+### Updates
+
+- Update `costro` to `2.2.0` ([#43](https://github.com/costrojs/costro-templates/pull/43))
+
 ## 2.1.0
 
 ### New features
