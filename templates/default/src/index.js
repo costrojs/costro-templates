@@ -1,6 +1,6 @@
-import { App } from 'costro';
-import Home from './pages/home';
-import About from './pages/about';
+import { App } from 'costro'
+import About from './pages/about/index.js'
+import Home from './pages/home/index.js'
 
 const routes = [
 	{
@@ -11,10 +11,10 @@ const routes = [
 		path: '/about',
 		component: About
 	}
-];
+]
 
 new App({
 	target: document.querySelector('#app'),
 	routes,
 	mode: 'history'
-});
+})

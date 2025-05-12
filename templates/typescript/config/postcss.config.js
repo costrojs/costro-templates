@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	plugins: [
 		'postcss-url',
 		'postcss-nested',
@@ -12,4 +12,4 @@ module.exports = {
 			}
 		]
 	]
-};
+}

@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	moduleFileExtensions: ['js', 'ts', 'tsx', 'json', 'svg'],
 	modulePaths: ['<rootDir>/src'],
 	preset: 'ts-jest/presets/js-with-babel',
@@ -7,7 +7,7 @@ export default {
 	coverageDirectory: 'coverage',
 	rootDir: '../',
 	transform: {
-		'^.+\\.(ts|tsx|js)$': 'ts-jest',
+		'^.+\\.(ts|tsx|js)$': 'ts-jest'
 	},
 	moduleNameMapper: {
 		'(.+)\\.js': '$1'

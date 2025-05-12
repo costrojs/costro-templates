@@ -1,6 +1,6 @@
-import { Component } from 'costro';
-import Navigation from '../../components/navigation';
-import './about.css';
+import { Component } from 'costro'
+import Navigation from '../../components/navigation.js'
+import './about.css'
 
 export default class About extends Component {
 	render() {
@@ -10,6 +10,6 @@ export default class About extends Component {
 				<hr />
 				<h2>About</h2>
 			</div>
-		);
+		)
 	}
 }
