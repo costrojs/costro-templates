@@ -1,6 +1,6 @@
 {
 	"name": "costro-templates",
-	"version": "2.2.0",
+	"version": "3.0.0",
 	"description": "Costro templates for Create Costro App",
 	"keywords": [
 		"costro",
@@ -11,8 +11,7 @@
 		"typescript",
 		"webpack",
 		"babel",
-		"eslint",
-		"prettier",
+		"biome",
 		"jest",
 		"zero-configuration",
 		"build-tools"
@@ -27,15 +26,15 @@
 	},
 	"license": "MIT",
 	"author": "Joris DANIEL",
-	"files": [
-		"templates",
-		"!templates/**/package-lock.json"
-	],
+	"files": ["templates", "!templates/**/package-lock.json"],
 	"scripts": {
 		"build": "echo \"No build specified\" && exit 0",
 		"test": "echo \"No test specified\" && exit 0"
 	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4"
+	},
 	"engines": {
-		"node": ">=16.20.0"
+		"node": ">=20.18.0"
 	}
 }

@@ -6,4 +6,4 @@ module.exports = {
 		MD036: false // Emphasis used instead of a heading
 	},
 	ignores: ['**/node_modules/**', '.github/PULL_REQUEST_TEMPLATE.md']
-};
+}

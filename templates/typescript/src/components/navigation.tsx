@@ -1,4 +1,4 @@
-import { Link } from 'costro';
+import { Link } from 'costro'
 
 export default function Navigation() {
 	return (
@@ -10,5 +10,5 @@ export default function Navigation() {
 				<Link to="/about">About</Link>
 			</li>
 		</ul>
-	);
+	)
 }

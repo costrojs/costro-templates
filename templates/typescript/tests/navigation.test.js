@@ -1,8 +1,8 @@
-import Navigation from '@src/components/navigation.tsx';
+import Navigation from '@src/components/navigation.tsx'
 
 describe('Navigation constructor', () => {
 	it('Should call the navigation function', () => {
-		const result = Navigation();
+		const result = Navigation()
 
 		expect(result).toStrictEqual(
 			<ul>
@@ -13,6 +13,6 @@ describe('Navigation constructor', () => {
 					<a href="/about">About</a>
 				</li>
 			</ul>
-		);
-	});
-});
+		)
+	})
+})

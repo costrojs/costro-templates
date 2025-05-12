@@ -1,18 +1,19 @@
-const fs = require('fs');
-const path = require('path');
-const webpack = require('webpack');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
+import fs from 'node:fs'
+import path from 'node:path'
 
-const appDirectory = fs.realpathSync(process.cwd());
-const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath);
+import CopyPlugin from 'copy-webpack-plugin'
+import CssMinimizerPlugin from 'css-minimizer-webpack-plugin'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
+import MiniCssExtractPlugin from 'mini-css-extract-plugin'
+import TerserPlugin from 'terser-webpack-plugin'
+import webpack from 'webpack'
 
-module.exports = (env, argv) => {
-	const isProduction = argv.mode === 'production';
-	const suffixHash = isProduction ? '.[contenthash]' : '';
+const appDirectory = fs.realpathSync(process.cwd())
+const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath)
+
+export default (env, argv) => {
+	const isProduction = argv.mode === 'production'
+	const suffixHash = isProduction ? '.[contenthash]' : ''
 
 	const plugins = [
 		new MiniCssExtractPlugin({
@@ -38,10 +39,10 @@ module.exports = (env, argv) => {
 				}
 			]
 		})
-	];
+	]
 
 	if (!isProduction) {
-		plugins.push(new webpack.ProgressPlugin());
+		plugins.push(new webpack.ProgressPlugin())
 	}
 
 	return {
@@ -111,7 +112,15 @@ module.exports = (env, argv) => {
 			]
 		},
 		resolve: {
-			extensions: ['.js', '.jsx']
+			extensions: ['.js', '.jsx'],
+			extensionAlias: {
+				'.js': ['.ts', '.tsx', '.js']
+			},
+			alias: {
+				// https://github.com/facebook/create-react-app/issues/11769#issuecomment-997152888
+				'jsx-dom/jsx-dev-runtime': 'jsx-dom/jsx-dev-runtime.js',
+				'jsx-dom/jsx-runtime': 'jsx-dom/jsx-runtime.js'
+			}
 		},
 		devtool: isProduction ? false : 'source-map',
 		context: appDirectory,
@@ -155,10 +164,10 @@ module.exports = (env, argv) => {
 				}),
 				new CssMinimizerPlugin()
 			],
-			providedExports: false,
+			providedExports: true,
 			removeAvailableModules: true,
 			removeEmptyChunks: true,
 			splitChunks: false
 		}
-	};
-};
+	}
+}

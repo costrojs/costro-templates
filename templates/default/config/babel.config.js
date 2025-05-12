@@ -1,5 +1,5 @@
-module.exports = (api) => {
-	api.cache(true);
+export default function babelConfig(api) {
+	api.cache(true)
 	return {
 		presets: [
 			'@babel/preset-env',
@@ -7,9 +7,9 @@ module.exports = (api) => {
 				'@babel/preset-react',
 				{
 					runtime: 'automatic',
-					importSource: 'costro'
+					importSource: 'jsx-dom'
 				}
 			]
 		]
-	};
-};
+	}
+}

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	rootDir: '../',
 	moduleNameMapper: {
 		'^@src(.*)$': '<rootDir>/src$1'
@@ -8,4 +8,4 @@ module.exports = {
 	transform: {
 		'\\.(js|jsx)$': ['babel-jest', { configFile: './config/babel.config.js' }]
 	}
-};
+}

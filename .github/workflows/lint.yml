@@ -17,7 +17,10 @@ jobs:
         dir: ['templates/default', 'templates/typescript']
     uses: yoriiis/actions/.github/workflows/lint.yml@main
     with:
+      node-version: 22
       working-directory: ${{ matrix.dir }}
+      eslint-status: false
+      biome-status: true
       stylelint-status: false
       typescript-status: "${{ matrix.dir == 'templates/typescript' }}"
       markdown-config: '../../.markdownlint-cli2.cjs'
