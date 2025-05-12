@@ -7,7 +7,7 @@
 		"build": "webpack --config config/webpack.config.js --mode=production",
 		"dev": "webpack serve --config config/webpack.config.js --mode=development",
 		"lint": "biome check --write",
-		"test": "jest --config config/jest.config.js"
+		"test": "jest --config config/jest.config.cjs"
 	},
 	"browserslist": {
 		"production": [

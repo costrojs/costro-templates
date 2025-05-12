@@ -118,8 +118,8 @@ export default (env, argv) => {
 			},
 			alias: {
 				// https://github.com/facebook/create-react-app/issues/11769#issuecomment-997152888
-				'jsx-dom/jsx-dev-runtime': 'jsx-dom/jsx-dev-runtime.js',
-				'jsx-dom/jsx-runtime': 'jsx-dom/jsx-runtime.js'
+				'jsx-dom-cjs/jsx-dev-runtime': 'jsx-dom-cjs/jsx-dev-runtime.js',
+				'jsx-dom-cjs/jsx-runtime': 'jsx-dom-cjs/jsx-runtime.js'
 			}
 		},
 		devtool: isProduction ? false : 'source-map',

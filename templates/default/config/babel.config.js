@@ -7,7 +7,7 @@ export default function babelConfig(api) {
 				'@babel/preset-react',
 				{
 					runtime: 'automatic',
-					importSource: 'jsx-dom'
+					importSource: 'jsx-dom-cjs'
 				}
 			]
 		]

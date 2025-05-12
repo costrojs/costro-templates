@@ -63,7 +63,7 @@ export default (env, argv) => {
 						{
 							loader: 'babel-loader',
 							options: {
-								extends: resolveApp('config/babel.config.js')
+								extends: resolveApp('config/babel.config.cjs')
 							}
 						}
 					]
@@ -75,7 +75,7 @@ export default (env, argv) => {
 						{
 							loader: 'babel-loader',
 							options: {
-								extends: resolveApp('config/babel.config.js')
+								extends: resolveApp('config/babel.config.cjs')
 							}
 						},
 						{

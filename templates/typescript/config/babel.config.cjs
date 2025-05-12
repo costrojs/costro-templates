@@ -1,4 +1,4 @@
-export default function babelConfig(api) {
+module.exports = (api) => {
 	api.cache(true)
 	return {
 		presets: [
