@@ -1,5 +1,5 @@
 module.exports = (api) => {
-	api.cache(true);
+	api.cache(true)
 	return {
 		presets: [
 			'@babel/preset-env',
@@ -11,5 +11,5 @@ module.exports = (api) => {
 				}
 			]
 		]
-	};
-};
+	}
+}
