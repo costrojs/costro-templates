@@ -18,6 +18,5 @@ jobs:
     uses: yoriiis/actions/.github/workflows/lint.yml@main
     with:
       working-directory: ${{ matrix.dir }}
-      stylelint-status: false
       typescript-status: "${{ matrix.dir == 'templates/typescript' }}"
       markdown-config: '../../.markdownlint-cli2.cjs'

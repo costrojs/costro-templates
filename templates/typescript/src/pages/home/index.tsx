@@ -1,5 +1,5 @@
 import { Component } from 'costro';
-import Navigation from '../../components/navigation';
+import Navigation from '../../components/navigation.js';
 import './home.css';
 
 export default class Home extends Component {

@@ -12,7 +12,7 @@ describe('Navigation constructor', () => {
 				<li>
 					<a href="/about">About</a>
 				</li>
-			</ul>
+			</ul>,
 		);
 	});
 });
