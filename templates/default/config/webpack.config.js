@@ -112,6 +112,11 @@ export default (_env, argv) => {
 		},
 		resolve: {
 			extensions: ['.js', '.jsx'],
+			alias: {
+				// https://github.com/facebook/create-react-app/issues/11769#issuecomment-997152888
+				'jsx-dom/jsx-dev-runtime': 'jsx-dom/jsx-dev-runtime.js',
+				'jsx-dom/jsx-runtime': 'jsx-dom/jsx-runtime.js',
+			},
 		},
 		devtool: isProduction ? false : 'source-map',
 		context: appDirectory,
@@ -155,7 +160,7 @@ export default (_env, argv) => {
 				}),
 				new CssMinimizerPlugin(),
 			],
-			providedExports: false,
+			providedExports: true,
 			removeAvailableModules: true,
 			removeEmptyChunks: true,
 			splitChunks: false,

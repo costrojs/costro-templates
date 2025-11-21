@@ -24,13 +24,14 @@
 	},
 	"prettier": "./config/prettier.config.js",
 	"dependencies": {
-		"costro": "^2.2.0"
+		"costro": "^2.2.0",
+		"jsx-dom": "^8.1.6"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.3.6",
 		"@babel/core": "^7.28.5",
 		"@babel/preset-env": "^7.28.5",
 		"@babel/preset-react": "^7.28.5",
+		"@biomejs/biome": "^2.3.6",
 		"@types/jest": "^29.5.1",
 		"@types/react-dom": "^18.2.4",
 		"babel-jest": "^30.2.0",

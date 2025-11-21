@@ -1,4 +1,4 @@
-export default (api) => {
+export default function babelConfig(api) {
 	api.cache(true);
 	return {
 		presets: [
@@ -7,9 +7,9 @@ export default (api) => {
 				'@babel/preset-react',
 				{
 					runtime: 'automatic',
-					importSource: 'costro',
+					importSource: 'jsx-dom',
 				},
 			],
 		],
 	};
-};
+}
