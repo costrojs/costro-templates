@@ -8,4 +8,5 @@ export default {
 	transform: {
 		'\\.(js|jsx)$': ['babel-jest', { configFile: './config/babel.config.js' }],
 	},
+	transformIgnorePatterns: ['node_modules/(?!jsx-dom/)'],
 };
