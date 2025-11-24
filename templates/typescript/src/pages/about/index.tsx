@@ -1,5 +1,5 @@
 import { Component } from 'costro';
-import Navigation from '../../components/navigation';
+import Navigation from '../../components/navigation.js';
 import './about.css';
 
 export default class About extends Component {

@@ -1,6 +1,6 @@
 {
 	"name": "costro-templates",
-	"version": "2.2.0",
+	"version": "3.0.0",
 	"description": "Costro templates for Create Costro App",
 	"keywords": [
 		"costro",
@@ -36,6 +36,6 @@
 		"test": "echo \"No test specified\" && exit 0"
 	},
 	"engines": {
-		"node": ">=16.20.0"
+		"node": ">=22"
 	}
 }
